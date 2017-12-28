@@ -49,6 +49,11 @@ Improvements:
 - System integration (Deprecated APIs on macOS, Windows new APIs for networking and network filtering)
 - Network traffic analysis (libpcap / new driver ?)
 
+Dependencies:
+- boost (functions.hpp and tribool.hpp)
+- openssl
+- QAppUpdater (see github.com/tibsys/qappupdater)
+
 Steps:
 - [TBD] Provide my full source code to improve this software and make it available freely for all people. I need to clean it a bit before.
 - [TBD] Write a specifications book on the existing (v2)
