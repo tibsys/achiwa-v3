@@ -57,9 +57,10 @@ Dependencies:
 - libpcap (http://www.tcpdump.org/)
 
 Compilation environments:
+- Qt 5.4+
 - macOs: XCode and clang
 - GNU/Linux: gcc and stdlib
-- Windows: Visual C++ (not mingw because of missing libraries for networking)
+- Windows: Visual C++ 2012+ with SDK 7.1+ (not mingw because of missing libraries for networking)
 
 Steps:
 - [TBD] Provide my full source code to improve this software and make it available freely for all people. I need to clean it a bit before.

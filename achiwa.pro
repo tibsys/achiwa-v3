@@ -2,4 +2,5 @@
 
 DISTFILES += \
     README.md \
-    LICENSE
+    LICENSE \
+    Refactoring.txt
