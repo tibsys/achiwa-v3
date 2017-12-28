@@ -1,20 +1,25 @@
 # achiwa-v3
 Achiwa is an intrusion detection software for individuals and small businesses
+
 Current product URL (in french): https://www.tibsys.com/cybersecurite/achiwa
 
-Product owner: Tristan Israël (tristan.israel@tibsys.com)
-Document file name: README.md
-Document owner: Tristan Israël (tristan.israel@tibsys.com)
-Document version: 1.0 2017-12-28
+- Product owner: Tristan Israël (tristan.israel@tibsys.com)
+- Document file name: README.md
+- Document owner: Tristan Israël (tristan.israel@tibsys.com)
+- Document version: 1.0 2017-12-28
 
 ########
 
 Achiwa is runnable on macOs, Windows and GNU/Linux (Debian like distributions).
 
 It sniffes all network data (using libpcap) and identifies new devices. Identification process is done using multiple algorithms: MAC address, OS recognition, software recognition, intrusion tests, CIFS/SMB protocol, and others.
+
 When a new device is identified, it is presented to the user (OS, device name, device type, user names, others). The user can set it as a friend device or in the black hole.
+
 When put in the black hole, Achiwa sends multiple requests to make the device fail (fake router MAC address, exploits, others) and force the intruder to leave.
+
 The main goal is to help the user monitor its network and make it more secure: when a new device is detected Achiwa is going to give him information on how its network's security could be improved.
+
 There are tools included which aim at helping the user diagnose its own computer security.
 
 #####
