@@ -48,11 +48,18 @@ Improvements:
 - Devices recognition (algorithms, databases)
 - System integration (Deprecated APIs on macOS, Windows new APIs for networking and network filtering)
 - Network traffic analysis (libpcap / new driver ?)
+- Create a Windows 10 Metro GUI
 
 Dependencies:
 - boost (functions.hpp and tribool.hpp)
 - openssl
 - QAppUpdater (see github.com/tibsys/qappupdater)
+- libpcap (http://www.tcpdump.org/)
+
+Compilation environments:
+- macOs: XCode and clang
+- GNU/Linux: gcc and stdlib
+- Windows: Visual C++ (not mingw because of missing libraries for networking)
 
 Steps:
 - [TBD] Provide my full source code to improve this software and make it available freely for all people. I need to clean it a bit before.
@@ -60,5 +67,6 @@ Steps:
 - [TBD] Create a team
 - [TBD] Write a new specifications book (v3)
 - [TBD] Comment all source files
+- [TBD] Identify problems in the current architecture
 - [TBD] Start coding v3
 
