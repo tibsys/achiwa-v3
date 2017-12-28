@@ -1,0 +1,8 @@
+# achiwa-v3
+
+How to compile under Windows
+
+- Visual Studio only (2012+) with SDK 7.1+
+- download and compile zlib 
+- download and compile openssl 1.0+
+- download and compile libpcap

@@ -1,7 +1,8 @@
 # achiwa-v3
 
 Things to be refactored (ideas)
-- Ipv4Address and Ipv6Address should be replaced by QHostAddress (reduce MUDA)
+- av2::model::Ipv4Address and av2::model::Ipv6Address should be replaced by QHostAddress (reduce MUDA)
 - Create a tribool class to replace boost tribool (dependancy reduction)
 - Change the way we manage Energy (Acpi in opus lib) in order to replace usage of boost::function (dependancy reduction)
 - Merge opus lib needed classes into this repository (dependancy reduction)
+- Replace av2::model::NetworkInterface with QNetworkInterface (reduce MUDA)

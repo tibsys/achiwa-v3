@@ -55,6 +55,7 @@ Dependencies:
 - openssl
 - QAppUpdater (see github.com/tibsys/qappupdater)
 - libpcap (http://www.tcpdump.org/)
+- zlib (when compiling with Visual Studio)
 
 Compilation environments:
 - Qt 5.4+

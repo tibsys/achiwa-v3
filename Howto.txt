@@ -1,0 +1,20 @@
+# achiwa-v3
+
+How to build the project
+
+Dependencies:
+- Qt SDK 5.4+ 
+- boost (functions.hpp and tribool.hpp)
+- openssl 1.0+
+- zlib
+- QAppUpdater (see github.com/tibsys/qappupdater)
+- libpcap (http://www.tcpdump.org/)
+
+See Build-*.txt files for specific instructions for your environment
+
+General instructions
+----------------------
+In Qt Creator, you need to define the path to needed libraries
+- In the Projects tab, select your Build configuration (ex: Desktop 5.10.0 MSVC2017 64 bits)
+- In the Build steps, for the qmake step add the following Additional arguments:
+	- INCLUDEPATH += "path_to_libs\boost_1_66_0 path_to_libs\libpcap-1.8.1 path_to_libs\zlib-1.2.11 path_to_libs\opus2 path_to_libs\qappupdater"
